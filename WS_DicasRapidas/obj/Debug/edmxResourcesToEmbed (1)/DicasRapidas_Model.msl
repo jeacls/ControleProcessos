@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DicaRapidaModelStoreContainer" CdmEntityContainer="DicaRapidaEntities">
+    <EntitySetMapping Name="DicaRapida">
+      <EntityTypeMapping TypeName="DicaRapidaModel.DicaRapida">
+        <MappingFragment StoreEntitySet="DicaRapida">
+          <ScalarProperty Name="DicaRapidaID" ColumnName="DicaRapidaID" />
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="DsNomeLista" ColumnName="DsNomeLista" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DicaRapidaItem">
+      <EntityTypeMapping TypeName="DicaRapidaModel.DicaRapidaItem">
+        <MappingFragment StoreEntitySet="DicaRapidaItem">
+          <ScalarProperty Name="DicaRapidaItemid" ColumnName="DicaRapidaItemid" />
+          <ScalarProperty Name="DicaRapidaID" ColumnName="DicaRapidaID" />
+          <ScalarProperty Name="ListItemID" ColumnName="ListItemID" />
+          <ScalarProperty Name="DsAssunto" ColumnName="DsAssunto" />
+          <ScalarProperty Name="DsDicaRapida" ColumnName="DsDicaRapida" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="DicaRapidaModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="UsuarioID" ColumnName="UsuarioID" />
+          <ScalarProperty Name="DsNome" ColumnName="DsNome" />
+          <ScalarProperty Name="DsToken" ColumnName="DsToken" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

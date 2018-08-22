@@ -1,0 +1,199 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html ng-app="DicasRapidas">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lista de dicas</title>
+
+    <link href="~/Style/bootstrap.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script>angular.module("DicasRapidas", [])</script>
+    <script src="~/ServicesJS/DicasApiService.js"></script>
+
+    <!--<script src="~/Controllers/ControllerJs/DicasRapidasCtrl.js"></script>-->
+
+    <script>
+        angular.module("DicasRapidas").controller("DicasRapidasCtrl", function ($scope, $http, DicasAPI) {
+            $scope.app = "DicasRapidas";
+
+            $scope.aDicas = [];
+
+
+            var carregarDados = function () {
+
+                $scope.aTipo = [{ DsTipo: "SQL", TipoID: "1" }, { DsTipo: "Crystal", TipoID: "2" }, { DsTipo: "SQL-Procedure", TipoID: "3" }];
+
+                DicasAPI.ListarDicas().then(function (resp) {
+                    console.log(resp.data);
+                    $scope.aDicas = resp.data;
+                }).catch(function (resp) {
+                    $scope.aDicas = [];
+                    alert("Não foi possível carregar as dicas");
+                });
+            };
+
+            var AddDicaTable = function (oDica) {
+                $scope.aDicas.push(angular.copy(oDica));
+                delete $scope.oDica;
+                $scope.frmDica.$setPristine();
+            };
+
+            $scope.Incluir = function (oDica) {
+                DicasAPI.Incluir(oDica).then(function (resp) {
+                    console.log(resp.data);
+                    $scope.oDica = resp.data;
+                    AddDicaTable($scope.oDica);
+                });
+            };
+
+            $scope.RemoverDica = function (aDicas) {
+                $scope.aDicas = aDicas.filter(function (oDica) {
+                    if (!oDica.selecionado) return oDica;
+                });
+            };
+
+            $scope.TemContatoSelecionado = function (aDicas) {
+                var isSelecionado = aDicas.some(function (aDica) {
+                    return aDica.selecionado;
+                });
+                return isSelecionado;
+            };
+
+            $scope.Deletar = function (oDica) {
+                DicasAPI.Deletar(oDica.DicaID).then(function (resp) {
+                    $scope.aDicas = resp.data;
+                }).catch(function () {
+                    !alert("Falha ao excluir!");
+                });
+            };
+
+            carregarDados();
+        });
+
+    </script>
+    <style>
+        .div {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body ng-controller="DicasRapidasCtrl">
+    <div style="margin-top: 5px; margin-bottom: 10px;">
+        <table style="width: 40%; float:right; margin-right:5%; margin-bottom:10px;">
+            <tr>
+                <td>
+                    <input type="text" name="txtFiltro" ng-model="sFiltro" placeholder="Filtro" class="form-control" style="height:50px;" />
+                </td>
+                <td>
+                    <button class="btn btn-lg btn-outline-primary" style="float:right;" data-toggle="modal" data-target="#modalCadastro">Incluir</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+    <div>
+        <!--{{aDicas}}-->
+        <table class="table thead-light" style="margin-top: 10px;" id="tblDicas">
+            <thead class="thead-dark">
+                <tr>
+                    <th style="width: 20px;">Sel.</th>
+                    <th style="width: 100px;">Grupo</th>
+                    <th style="width: 300px;">Titulo</th>
+                    <th>Descrição</th>
+                    <th style="width: 30px;">Inclusão</th>
+                    <th id="colAlterar" style="width:30px;">Alterar</th>
+                    <th id="colExcluir" style="width:30px;">Excluir</th>
+                </tr>
+            </thead>
+            <tbody class="table table-striped">
+                <tr ng-repeat="oDica in aDicas | filter:{DsDescricao:sFiltro}">
+                    <td>
+                        <input type="checkbox" ng-model="oDica.TipoID">
+                    </td>
+                    <td>{{oDica.TipoDica.DsTipo}}</td>
+                    <td>{{oDica.DsTitulo}}</td>
+                    <td>{{oDica.DsDescricao}}</td>
+                    <td>{{oDica.DtDataInclusao | date:'dd/MM/yyyy'}}</td>
+                    <td>
+                        <a href="">
+                            <img src="~/img/Edit_btn.png" />
+                        </a>
+                    </td>
+                    <td>
+                        <a id="btnDeletar" href="" ng-click="Deletar(oDica)">
+                            <img src="~/img/Del_btn.png" />
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    {{oDica}}
+    <!--{{oDicaDeletar}}-->
+    <br />
+
+    <!-- Modal -->
+    <div id="poupap">
+        DicasAPI.MostrarPoupap();
+        <div class="modal fade" id="modalCadastro" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Cadastro</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div style="margin-left: 10px; margin-bottom: 10px;">
+                            <form name="frmDica">
+                                <div style=" margin-top: 5px;">
+                                    <table id="TableModal">
+                                        <tr>
+                                            <th>Grupo*</th>
+                                            <th>Título*</th>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <select name="Tipo" id="Tipo" ng-model="oDica.TipoDica" ng-options="oTipo.DsTipo for oTipo in aTipo" ng-required="true" >
+                                                    <option value="">Selecione o Grupo</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input type="text" ng-model="oDica.DsTitulo" name="txtDica" ng-required="true" style="height:25px;">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div class="alert-danger" ng-show="frmDica.txtDica.$invalid && frmDica.txtDica.$dirty">Informe o título</div>
+                                </div>
+                                <div style=" margin-top: 5px;">
+                                    Descrição*
+                                    <br>
+                                    <textarea class="form-control" ng-model="oDica.dsDescricao" name="txtDescricao" ng-required="true" ng-minlength="20" cols="40" rows="3"></textarea>
+                                    <div class="alert-danger" ng-show="frmDica.txtDescricao.$error.required && frmDica.txtDescricao.$dirty">Fale mais sobre o tema: {{oDica.DsTitulo}}</div>
+                                    <div class="alert-danger" ng-show="frmDica.txtDescricao.$error.minlength">Nos ajude com mais detalhes sobre isso!</div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                        <button class="btn btn-primary" ng-click="Incluir(oDica)" ng-disabled="frmDica.$invalid">Gravar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

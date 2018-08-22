@@ -1,0 +1,85 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html ng-app="DicasRapidas">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Dicas Rápidas</title>
+    <style>
+        .jumbotron {
+            border: 0px;
+            border-style: solid;
+            width: 250px;
+            height: 280px;
+            margin-top: 10%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            margin-top: 10px;
+            margin-left: 45%;
+            width: 100px;
+        }
+    </style>
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <!--<script src="~/Scripts/angular.min.js"></script>-->
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Style/bootstrap.css" rel="stylesheet" />
+    <script>angular.module("DicasRapidas", [])</script>
+    <script src="~/ServicesJS/LoginApiService.js"></script>
+    <script src="~/Directives/uiAlertDirective.js"></script>
+
+    <script>
+        angular.module("DicasRapidas").controller("DicasRapidasCtrl", function ($scope, $http, LoginAPI) {
+
+            $scope.sMSGInvalidUser = "";
+
+            $scope.ValidarLogin = function () {
+                LoginAPI.Validar($scope.usuario.login, $scope.usuario.senha).then(function (resp) {
+                    if (resp.data == false) {
+                        $scope.sMSGInvalidUser = "Login ou senha inválidos. Favor verificar!";
+                    }
+                    else {
+                        window.location.href = "Home/ConsultarDicas";
+                    }
+                }).catch(function (resp) {
+                    console.log("erro");
+                });
+            };
+
+            delete $scope.usuario;
+        });
+    </script>
+</head>
+
+<body class="jumbotron" ng-controller="DicasRapidasCtrl">
+    <form name="frmLogin">
+        Login
+        <div>
+            <input class="form-control" type="text" ng-model="usuario.login" name="txtUsuario" placeholder="Informe o usuario" required="true">
+        </div>
+        Senha
+        <div>
+            <input class="form-control" type="password" ng-model="usuario.senha" name="txtSenha" placeholder="Informe a senha" required="true">
+        </div>
+        <div>
+            <button type="submit" class="btn btn-primary" ng-click="ValidarLogin()" ng-disabled="!usuario.login || !usuario.senha" name="btnLogar">Logar</button>
+            <div class="alert-danger">{{sMSGInvalidUser}}</div>
+            <div ui-Alert></div>
+            <!--Login ou senha inválidos. Favor verificar!-->
+        </div>
+        <div class="alert-danger" ng-show="frmLogin.$invalid && frmLogin.$dirty">Informe o login e senha</div>
+    </form>
+
+    <footer>
+        <br />
+        <br />
+        <p>&copy;@DateTime.Now.Year-enlightened code</p>
+    </footer>
+</body>
+</html>

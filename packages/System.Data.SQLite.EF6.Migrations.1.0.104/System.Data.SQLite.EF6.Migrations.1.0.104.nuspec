@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>System.Data.SQLite.EF6.Migrations</id>
+    <version>1.0.104</version>
+    <title>System.Data.SQLite.EF6.Migrations</title>
+    <authors>Bubi</authors>
+    <owners>Bubi</owners>
+    <projectUrl>http://sqliteef6migrations.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Entity framework 6.x migration provider for SQLite</description>
+    <summary />
+    <tags>EntityFramework Migration SQLite</tags>
+    <dependencies>
+      <dependency id="EntityFramework" version="6.1.3" />
+      <dependency id="System.Data.SQLite" version="1.0.104" />
+      <dependency id="System.Data.SQLite.Core" version="1.0.104" />
+      <dependency id="System.Data.SQLite.EF6" version="1.0.104" />
+      <dependency id="System.Data.SQLite.Linq" version="1.0.104" />
+    </dependencies>
+  </metadata>
+</package>

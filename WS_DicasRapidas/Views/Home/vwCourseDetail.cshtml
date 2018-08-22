@@ -1,0 +1,96 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="University">
+<head>
+    
+    <title>Detalhe Curso</title>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <!--<script src="~/Scripts/angular.min.js"></script>-->
+    <script src="~/Scripts/bootstrap.js"></script>
+    <link href="~/Style/bootstrap.css" rel="stylesheet" />
+    <script>angular.module("University", [])</script>    
+
+    <script>
+        angular.module("University").controller("UniversityCtrl", function ($scope, $http) {
+            $scope.aCourses = [
+                { "idCursoAluno": 1, "alunoId": 1, "name": "Josep" },
+                { "idCursoAluno": 2, "alunoId": 2, "name": "Alfredo" },
+                { "idCursoAluno": 3, "alunoId": 5, "name": "Manoel" }
+            ];
+
+            $scope.aStudent = [
+                { "id": 1, "name": "Jose" },
+                { "id": 2, "name": "Manoel" },
+                { "id": 3, "name": "Stuard" }
+            ];
+
+            $scope.Deletar = function () {
+
+            };
+        });
+    </script>
+    
+</head>
+<body ng-controller="UniversityCtrl">
+    <div>
+        <div style="margin-top: 5px; margin-bottom: 10px;">
+            <table style="width: 40%; float:right; margin-right:5%; margin-bottom:10px;">
+                <tr>
+                    <td>
+                        <input type="text" name="txtFiltro" ng-model="sFiltro" placeholder="Filtro" class="form-control" style="height:50px;" />
+                    </td>
+                    <td>
+                        
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <table class="table thead-light" style="margin-top: 10px;" id="tblDicas">
+            <thead class="thead-dark">
+                <tr>
+                    <th style="width: 20px;">idCursoAluno</th>                    
+                    <th style="width: 100px;">Aluno</th>
+                    <th id="colExcluir" style="width:30px;">Excluir</th>
+                </tr>
+            </thead>
+            <tbody class="table table-striped">
+                <tr ng-repeat="oCourse in aCourses | filter:sFiltro">
+                    <td>{{oCourse.idCursoAluno}}</td>                   
+                    <td>{{oCourse.name}}</td>
+                    <td>
+                        <a id="btnDeletar" href="" ng-click="Deletar(oCurso)">
+                            <img src="~/img/Del_btn.png" />
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <form name="frmDetail">
+        <div class="container-fluid">
+            <table>
+                <tr>
+                    <td>Selecione o aluno</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select name="cboStudent" ng-model="aStudents" ng-options="oStudent.name for oStudent in aStudent" style="width:300px;">
+                            <option value=""></option>
+                        </select>
+                    </td>
+                    <td>
+                        <input type="button" name="btnSave" ng-disabled="" value="Vincular" class="btn-success">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>    
+</body>
+</html>

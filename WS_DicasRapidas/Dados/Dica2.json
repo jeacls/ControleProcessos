@@ -1,0 +1,32 @@
+﻿{
+    "DicaID": 1,
+    "DsDica": "Solucoes",
+    "ResponsavelID": 1,
+    "DicaItem": [
+        {
+            "DicaID": 1,
+            "DicaItemID": 1,
+            "DicaItemPaiID": null,
+            "DsDica": "SQL",
+            "DsExplicacao": "",
+            "lstDicaItem": null
+        },
+        {
+            "DicaID": 1,
+            "DicaItemID": 2,
+            "DicaItemPaiID": null,
+            "DsDica": "Function",
+            "DsExplicacao": "",
+            "lstDicaItem": [
+                {
+                    "DicaID": 1,
+                    "DicaItemID": 3,
+                    "DicaItemPaiID": 1,
+                    "DsDica": "",
+                    "DsExplicacao": "Private Function AddMensagemRetorno(sMensagem As String)",
+                    "lstDicaItem": null
+                }
+            ]
+        }
+    ]
+}

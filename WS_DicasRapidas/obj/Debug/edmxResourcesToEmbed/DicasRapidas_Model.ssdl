@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DicaRapidaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DicaRapida">
+    <Key>
+      <PropertyRef Name="DicaRapidaID" />
+    </Key>
+    <Property Name="DicaRapidaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UsuarioID" Type="int" Nullable="false" />
+    <Property Name="DsNomeLista" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="DicaRapidaItem">
+    <Key>
+      <PropertyRef Name="DicaRapidaItemid" />
+    </Key>
+    <Property Name="DicaRapidaItemid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DicaRapidaID" Type="int" />
+    <Property Name="ListItemID" Type="int" />
+    <Property Name="DsAssunto" Type="varchar" MaxLength="100" />
+    <Property Name="DsDicaRapida" Type="varchar" MaxLength="2000" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="UsuarioID" />
+    </Key>
+    <Property Name="UsuarioID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DsNome" Type="varchar" MaxLength="100" />
+    <Property Name="DsToken" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__DicaRapid__DicaR__2E1BDC42">
+    <End Role="DicaRapida" Type="Self.DicaRapida" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DicaRapidaItem" Type="Self.DicaRapidaItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DicaRapida">
+        <PropertyRef Name="DicaRapidaID" />
+      </Principal>
+      <Dependent Role="DicaRapidaItem">
+        <PropertyRef Name="DicaRapidaID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DicaRapid__Usuar__2B3F6F97">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="DicaRapida" Type="Self.DicaRapida" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="UsuarioID" />
+      </Principal>
+      <Dependent Role="DicaRapida">
+        <PropertyRef Name="UsuarioID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DicaRapidaModelStoreContainer">
+    <EntitySet Name="DicaRapida" EntityType="Self.DicaRapida" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DicaRapidaItem" EntityType="Self.DicaRapidaItem" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__DicaRapid__DicaR__2E1BDC42" Association="Self.FK__DicaRapid__DicaR__2E1BDC42">
+      <End Role="DicaRapida" EntitySet="DicaRapida" />
+      <End Role="DicaRapidaItem" EntitySet="DicaRapidaItem" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DicaRapid__Usuar__2B3F6F97" Association="Self.FK__DicaRapid__Usuar__2B3F6F97">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="DicaRapida" EntitySet="DicaRapida" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

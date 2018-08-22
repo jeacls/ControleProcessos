@@ -1,0 +1,43 @@
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="ConsultarDicas">
+<head>
+    <title>Consultar Dicas</title>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script>
+        angular.module("ConsultarDicas", []);
+        angular.module("ConsultarDicas").controller("ConsultarDicasCtrl", function ($scope) {
+            $scope.aDicas = [
+                { DicaID: "1", iNivel: "2", DsTitulo: "SQL", DsDescricao: "Insert Select", DsDica: "o comando para rodar o ..." },
+                { DicaID: "2", iNivel: "2", DsTitulo: "SQL", DsDescricao: "Insert com join", DsDica: "A sintax para rodar esse com...." },
+                { DicaID: "3", iNivel: "2", DsTitulo: "Angular", DsDescricao: "Funcao", DsDica: "A funcao deve ser..." }
+            ];
+        });
+    </script>
+</head>
+<body class="form-control" ng-controller="ConsultarDicasCtrl">
+    <div style="float:left; ">
+        <h4 style="width:50%; margin-right:0 !important; float:left; ">Dicas</h4>
+        Filtro
+        <input type="text" name="txtFiltro" ng-model="sFiltro" class="form-control" style="margin-right:60%;" />
+    </div>
+    <div>
+        <table>
+            <tr>
+                <th>DicaID</th>
+                <th>Nível</th>
+                <th>Titulo</th>
+                <th>Descrição</th>
+                <th>Dica</th>
+            </tr>
+            <tr ng-repeat ="oDica in aDicas">
+                <td>{{oDica.DicaID}}</td>
+                <td>{{oDica.iNivel}}</td>
+                <td>{{oDica.DsTitulo}}</td>
+                <td>{{oDica.DsDescricao}}</td>
+                <td>{{oDica.DsDica}}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

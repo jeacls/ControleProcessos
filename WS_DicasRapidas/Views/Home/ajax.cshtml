@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Teste Ajax</title>
+    <h3>Ajax Experience!</h3>
+    <div id="Ajax"></div>
+</head>
+
+<body>
+
+    <script>
+        var get = function (url, callback) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4) {
+                    callback(xhr.responseText, xhr.status);
+                }
+            };
+            xhr.open("Get", url);
+            xhr.send(null);
+
+        };
+    </script>
+</body>
+
+</html>

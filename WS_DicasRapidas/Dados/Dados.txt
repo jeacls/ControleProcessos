@@ -1,0 +1,55 @@
+﻿[
+    {
+        "DicaID": "1",
+        "Tipo": "SQL",
+        "DicaItem": [
+            {
+                "DicaID": "1",
+                "DicaItemID": "1",
+                "DicaItemPaiID": null,
+                "DsDica": "aa",
+                "DataInclusao": "2017/05/01",
+                "DicaItem": [
+                    {
+                        "DicaID": "1",
+                        "DicaItemID": "1",
+                        "DicaItemPaiID": 1,
+                        "DsDica": "aa",
+                        "DataInclusao": "2017/05/01",
+                        "DicaItem": null
+                    }
+                ]
+            },
+            {
+                "DicaID": "1",
+                "DicaItemID": "2",
+                "DicaItemPaiID": null,
+                "DsDica": "b",
+                "DataInclusao": "2017/05/01",
+                "DicaItem": null
+            }
+        ]
+    },
+    {
+        "DicaID": "2",
+        "Tipo": "Crystal",
+        "DicaItem": [
+            {
+                "DicaID": "2",
+                "DicaItemID": "3",
+                "DicaItemPaiID": null,
+                "DsDica": "c",
+                "DataInclusao": "2017/05/01",
+                "DicaItem": null
+            },
+            {
+                "DicaID": "2",
+                "DicaItemID": "4",
+                "DicaItemPaiID": null,
+                "DsDica": "d",
+                "DataInclusao": "2017/05/01",
+                "DicaItem": null
+            }
+        ]
+    }
+]

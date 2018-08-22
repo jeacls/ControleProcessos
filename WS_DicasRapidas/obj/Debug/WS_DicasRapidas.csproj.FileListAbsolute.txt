@@ -1,0 +1,202 @@
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.dll.config
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.pdb
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Antlr3.Runtime.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.SqlServer.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Newtonsoft.Json.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Owin.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Net.Http.Formatting.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Helpers.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.Owin.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.WebHost.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Mvc.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Optimization.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Razor.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Razor.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WebGrease.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Newtonsoft.Json.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Net.Http.Formatting.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Helpers.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.WebHost.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Mvc.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Optimization.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Razor.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Razor.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Antlr3.Runtime.pdb
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.SqlServer.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.Owin.xml
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.csprojResolveAssemblyReference.cache
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.dll
+C:\Users\jeacl\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.pdb
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.dll.config
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.pdb
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Antlr3.Runtime.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.SqlServer.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Newtonsoft.Json.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Owin.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.EF6.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.EF6.Migrations.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.Linq.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Net.Http.Formatting.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Helpers.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.Owin.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.WebHost.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Mvc.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Optimization.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Razor.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Deployment.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Razor.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WebGrease.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.SqlServer.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Newtonsoft.Json.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Net.Http.Formatting.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Helpers.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.WebHost.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Mvc.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Optimization.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Razor.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Deployment.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Razor.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Antlr3.Runtime.pdb
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.Owin.xml
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.dll
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.pdb
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.dll.config
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WS_DicasRapidas.pdb
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Antlr3.Runtime.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.SqlServer.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Core.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Cookies.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Facebook.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Google.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.OAuth.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Twitter.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Web.Infrastructure.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Newtonsoft.Json.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Owin.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.EF6.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.EF6.Migrations.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.Linq.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Net.Http.Formatting.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Helpers.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.Owin.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.WebHost.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Mvc.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Optimization.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Razor.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Deployment.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Razor.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\WebGrease.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\EntityFramework.SqlServer.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Data.SQLite.dll.config
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Newtonsoft.Json.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Net.Http.Formatting.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Helpers.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.WebHost.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Mvc.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Optimization.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Razor.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Deployment.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.WebPages.Razor.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Antlr3.Runtime.pdb
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Core.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Facebook.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Cookies.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.OAuth.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Google.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.Twitter.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\bin\System.Web.Http.Owin.xml
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.csproj.CoreCompileInputs.cache
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.csproj.CopyComplete
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.dll
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.pdb
+E:\GoogleDrive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.csprojAssemblyReference.cache
+C:\Users\joliveira\Google Drive\Diversos\project\WS_DicasRapidas\WS_DicasRapidas\obj\Debug\WS_DicasRapidas.csprojResolveAssemblyReference.cache

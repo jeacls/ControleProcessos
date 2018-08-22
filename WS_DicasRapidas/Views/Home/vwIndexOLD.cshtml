@@ -1,0 +1,23 @@
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="ListaDicas">
+<head>
+    <title>Lista de dicas</title>
+    <script src="~/Scripts/angular.js"></script>
+    <script>
+        angular.module("ListaDicas", []);
+        angular.module("ListaDicas").controller("ListaDicasCtrl", function ($scope) {
+            $scope.aDicas = [
+                { sDica: "Dica1", sDescricao: "Teste" },
+                { sDica: "Dica2", sDescricao: "Teste2" }
+            ];
+        });
+    </script>
+  
+</head>
+<body class="form-control" ng-controller="ListaDicasCtrl">
+    <div>
+        <a href="vwConsultarDicas.cshtml">Dicas</a>
+    </div>
+</body>
+</html>
+
